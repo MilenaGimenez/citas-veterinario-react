@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/citas-veterinario-react/static/css/main.c1399a5b.chunk.css",
-    "main.js": "/citas-veterinario-react/static/js/main.60ed8787.chunk.js",
-    "main.js.map": "/citas-veterinario-react/static/js/main.60ed8787.chunk.js.map",
+    "main.js": "/citas-veterinario-react/static/js/main.1a6706ae.chunk.js",
+    "main.js.map": "/citas-veterinario-react/static/js/main.1a6706ae.chunk.js.map",
     "runtime-main.js": "/citas-veterinario-react/static/js/runtime-main.89490c9e.js",
     "runtime-main.js.map": "/citas-veterinario-react/static/js/runtime-main.89490c9e.js.map",
     "static/js/2.286b014f.chunk.js": "/citas-veterinario-react/static/js/2.286b014f.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.89490c9e.js",
     "static/js/2.286b014f.chunk.js",
     "static/css/main.c1399a5b.chunk.css",
-    "static/js/main.60ed8787.chunk.js"
+    "static/js/main.1a6706ae.chunk.js"
   ]
 }
