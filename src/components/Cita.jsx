@@ -19,7 +19,7 @@ const Cita = ({
 };
 
 Cita.propTypes = {
-    Cita: PropTypes.object.isRequired,
+    cita: PropTypes.object.isRequired,
     eliminarCita: PropTypes.func.isRequired
 };
 

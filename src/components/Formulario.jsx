@@ -2,11 +2,9 @@ import {useState} from 'react';
 import { v4 as uuidv4 } from 'uuid'; 
 import PropTypes from 'prop-types'
 
-uuidv4(); // ⇨ '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d'
-
 const Formulario = ({crearCita}) => {
 
-    //Crear el estado de las citas
+    //Creando el estado de las citas
     const [cita, setCita] = useState({
         mascota: '',
         propietario: '',
@@ -22,8 +20,6 @@ const Formulario = ({crearCita}) => {
     const [mensajeEnviado, setMensajeEnviado] = useState(false);
 
     const handlerState = e => {
-        console.log(e.target.name)
-        console.log(e.target.value)
         setCita({
             ...cita,//hacer la copia para que se guarde todo
             [e.target.name]: e.target.value,
@@ -31,14 +27,13 @@ const Formulario = ({crearCita}) => {
     }; 
 
     //Extraer valores de las citas
-
     const {mascota, propietario, fecha, hora, sintomas} = cita;
 
     //Cuando el usuario presione agregar cita
     const submitCita = e => {
         e.preventDefault();
-    // Validar
 
+    // Validar
     if(
       mascota.trim() === '' || 
       propietario.trim() === '' || 
